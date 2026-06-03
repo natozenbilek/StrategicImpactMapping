@@ -1,0 +1,22 @@
+name: strategic-impact-mapping
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.6
+  - numpy=2.0.2
+  - scipy=1.13.1
+  - pandas=2.2.3
+  - scikit-learn=1.6.1
+  - networkx=3.2.1
+  - statsmodels=0.14.6
+  - matplotlib=3.9.4
+  - pyarrow=21.0.0
+  - lxml=6.1.1        # Wikipedia constituent parse in src.stage1_data.download
+  - pip
+  - pip:
+      - arch==7.2.0
+      - yfinance==1.2.0
+      - python-louvain==0.16
+      # Dashboard-only (not required to reproduce paper numbers):
+      - plotly==6.7.0
+      - streamlit==1.50.0

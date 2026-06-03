@@ -1,0 +1,35 @@
+# ---- Data (NOT redistributable; CRSP/WRDS license) ----
+data/*
+!data/README.md
+results/
+logs/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- LaTeX build artifacts ----
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.out
+*.toc
+*.synctex.gz
+*.bbl
+*.blg
+
+# ---- Editor / OS ----
+.idea/
+.vscode/
+.DS_Store
+
+# ---- Backups / scratch ----
+*.bak*
+texput.*
+test[0-9]*.*

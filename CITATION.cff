@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or its findings, please cite the work below."
+title: "Strategic Impact Mapping: A Directed-Network Framework for S&P 500 Crisis Regimes"
+authors:
+  - family-names: "Tözenbilek"
+    given-names: "Nezih Arhan"
+    affiliation: "Department of Computer Engineering, Hacettepe University, Ankara, Turkey"
+type: software
+license: MIT
+repository-code: "https://github.com/natozenbilek/StrategicImpactMapping"
+year: 2026
+keywords:
+  - financial networks
+  - dynamic conditional correlation
+  - graphical lasso
+  - lead-lag structure
+  - network motifs
+  - network stress index
+  - "S&P 500"
+preferred-citation:
+  type: article
+  title: "Strategic Impact Mapping: A Directed-Network Framework for S&P 500 Crisis Regimes"
+  authors:
+    - family-names: "Tözenbilek"
+      given-names: "Nezih Arhan"
+  year: 2026
+  notes: "Preprint; submitted to IEEE Transactions on Network Science and Engineering."
